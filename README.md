@@ -1,5 +1,7 @@
 # apache-kafka-java-producer-dw
 
+see:
+https://cevheribozoglan.medium.com/apache-kafka-digital-wristband-create-kafka-producer-and-consumer-from-linux-terminal-e2ccd2becb06
 
 First, Download Apache Kafka : https://kafka.apache.org/downloads. 
 For example : https://www.apache.org/dyn/closer.cgi?path=/kafka/2.6.0/kafka_2.13-2.6.0.tgz
