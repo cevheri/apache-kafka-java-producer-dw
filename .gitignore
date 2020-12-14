@@ -1,1 +1,3 @@
-./idea/
+/.idea/
+/target/
+/apache-kafka-digital-wristband.iml
