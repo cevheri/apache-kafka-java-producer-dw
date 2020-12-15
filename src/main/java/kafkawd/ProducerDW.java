@@ -11,13 +11,10 @@ import java.util.Properties;
 import static kafkawd.Utils.getRandomName;
 
 public class ProducerDW {
-
-
-
     public static void main(String[] args) {
 
         String bootstrapserver = "127.0.0.1:9092";
-        String topicName = "digital-wristband";
+        String topicName = "digital-wristband";https://cevheribozoglan.medium.com/apache-kafka-digital-wristband-create-kafka-producer-and-consumer-from-linux-terminal-e2ccd2becb06
         System.out.println(topicName);
 
         //create producer properties
@@ -29,7 +26,7 @@ public class ProducerDW {
         //create the producer
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
 
-        for (int i = 0; i < 100000; i++) {
+        for (Integer i = 0; i < Integer.MAX_VALUE; i++) {
             //create a producer record
             ProducerRecord<String, String> record = new ProducerRecord<>(topicName, getRandomName());
 
